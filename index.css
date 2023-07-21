@@ -1,5 +1,3 @@
-
-
 .header{
     width: 600px;
     height: 100Px;
@@ -12,44 +10,48 @@
 .contianer{
     margin: 10px auto;
 }
-h1{
-    margin-left: 50px;
-    color: white;
-    font-size: xx-large; 
-    font-weight:bolder;
-}
 img{
     display: block;
 }
 .contianer{
     width: 600px;
 }
-
+hr{
+    width: 100%;
+    margin:20px 0;
+    color:#BDBFBF ;
+}
+p{
+    color: #BDBFBF;
+}
+.headerSubj{
+    margin-left: 50px;
+    color: white;
+    font-size: large; 
+    font-weight:bolder;
+    width: 50%;
+}
+.subjForm{
+    padding-top: 45px;
+}
 .firstSub{
     color: darkgreen;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 10px;
-
 }
 .firstSection{
     display: inline-block;
     margin-left:10px;
-
-
 }
 .secondSection{
     display: inline-block;
     margin-left: 50px;
-}
-p{
-    color: #BDBFBF;
 }
 .firstIn{
     width: 250px;
 }
 .secondIn{
     width: 250px;
-
 }
 .thirdSection{
     margin-left: 10px;
@@ -64,7 +66,6 @@ p{
 .two{
     display: inline-block;
     margin-left: 30px;
-
 }
 .three{
     display: inline-block;
@@ -75,16 +76,9 @@ p{
 }
 .forstate{
     width: 165;
-
 }
 .forzip{
     width: 165;
-
-}
-hr{
-    width: 100%;
-    margin:20px 0;
-    
 }
 .fourSection{
     display: inline-block;
@@ -121,5 +115,179 @@ select{
 .subone{
     padding: 3px;
     margin-left: 30px
+}
+/* Server Page */
 
+.container-boss{
+    background-image: url(img/brick-wall-background.jpeg);
+    padding: 60px;
+}
+.container-leader{
+    border: 10px solid black;
+    border-style: groove;
+    background-color: white;
+    padding: 20px;
+}
+a{
+    color: red;
+}
+.allInOne{
+    margin: 10px auto;
+    background-color: rgb(243, 172, 136);
+    border: 3px solid rgb(142, 148, 154);
+    width: 70%;
+    text-align: center;
+}
+.unvNight{
+    display: inline-block;
+    padding-top: 10px;
+}
+.subUnv{
+    display: inline-block;
+    font-family: 'Ballet', cursive;
+}
+.imgLogo{
+    display: inline-block;
+}
+.allInTwo{
+    margin: 10px auto;
+    background-color: rgb(243, 172, 136);
+    border: 3px solid rgb(142, 148, 154);
+    width: 70%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.allInThree{
+    margin: 10px auto;
+    background-color: rgb(243, 172, 136);
+    border: 3px solid rgb(142, 148, 154);
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.smallBox{
+    padding-left: 180px;
+}
+.normal{
+    font-family: 'Bad Script', cursive;
+    color: black    ;
+}
+.Calculator{
+    display: inline-block;
+}
+h5{
+    display: inline-block;
+    color: red;
+}
+.allInFour{
+    margin: 2px auto;
+    background-color: rgb(243, 172, 136);
+    width: 70%;
+    text-align: center;
+}
+.last{
+    color: black;
+}
+/* Login page */
+.container-list{
+    margin: 40px auto;
+   text-align: center;
+}
+.facebookLogin{
+    background-color: #4267B2;
+    width: 200px;
+    height: 40px;
+    border: 1px solid beige;
+    display: inline-block;
+}
+.imgface{
+    display: inline-block;
+    text-align: right;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
+}
+.pFacebok{
+    display: inline-block;
+    color: white;
+    padding-bottom: 7px;
+    padding-left: 15px;
+}
+.twitterLogin{
+    background-color: #1DA1F2;
+    width: 200px;
+    height: 40px;
+    border: 1px solid beige;
+    display: inline-block;
+}
+.imgtwitter{
+    display: inline-block;
+    text-align: right;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
+}
+.pTwitter{
+    display: inline-block;
+    color: white;
+    padding-bottom: 7px;
+    padding-left: 15px;
+}
+.orsrcl{
+    background-color: #BDBFBF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.UseOne{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid slategrey;
+}
+.UseTwo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid slategrey;
+}
+.allLable{
+    display: inline-block;
+    color: #606464;
+}
+.dontforgot{
+    display: inline-block;
+    padding-left: 100px;
+}
+.forgot{
+    color: #606464;
+}
+.loginStart{
+    background-color: #4267B2;
+    width: 400px;
+    height: 40px;
+    margin: 20px auto;
+}
+.logSatrt{
+    color: white;
+    padding-top: 10px;
+    font-size: larger;
+}
+.lastsign{
+    margin-top: 20px;
+}
+.last{
+    display: inline-block;
+    color: #606464;
+    font-size: larger;
+}
+.end{
+    display: inline-block;
+    color: #1DA1F2;
+    padding-left: 5px;
+    font-size: larger;
 }
